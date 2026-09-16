@@ -1,125 +1,125 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GuardiaSesores | Asesoría y Gestión de Extranjería en Madrid</title>
-<meta name="description" content="Asesoría y gestión de extranjería, nacionalidad, homologaciones, antecedentes penales, actas y trámites administrativos en Madrid. Profesionalidad, confianza y seguridad.">
-<link rel="canonical" href="https://guardiasesores.es/">
-<meta property="og:title" content="GuardiaSesores | Asesoría y Gestión">
-<meta property="og:description" content="Tu tranquilidad es nuestra prioridad. Te asesoramos y acompañamos en cada trámite.">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap');
 
-<div class="top wrap">
-  <a class="brand" href="/"><span class="mark">G·A</span>GuardiaSesores</a>
-  <div class="divider-heart"><span class="line"></span> ♥ <span class="line"></span></div>
-  <h1>Tu tranquilidad es nuestra prioridad</h1>
-  <p class="lede">Te asesoramos y acompañamos en cada trámite para que puedas avanzar con seguridad y confianza.</p>
-</div>
+:root{
+  --paper:#f8f4ea;
+  --paper-2:#f1ead9;
+  --navy:#152449;
+  --navy-2:#1c2f5c;
+  --navy-3:#0f1c38;
+  --gold:#c69a48;
+  --gold-light:#e4c789;
+  --ink:#1c2338;
+  --ink-dim:#5b6478;
+  --line:rgba(21,36,73,0.12);
+  --radius:16px;
+  --maxw:720px;
+}
 
-<main class="wrap">
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:84px;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
 
-  <div class="credential">
-    <img src="/asesora.jpg" alt="Asesora de GuardiaSesores">
-    <div class="txt"><b>Participante — I Congreso de Extranjería</b>ICOGAM, Ilustre Colegio Oficial de Gestores Administrativos de Madrid</div>
-  </div>
+.eyebrow{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;letter-spacing:0.14em;text-transform:uppercase;
+  color:var(--gold);font-weight:500;
+}
+h1,h2,h3{font-family:'Playfair Display',serif;color:var(--navy);line-height:1.15;margin:0.35em 0 0.3em;}
+h1{font-size:clamp(1.9rem,6vw,2.6rem);font-weight:700;text-align:center;}
+h2{font-size:1.3rem;font-weight:600;}
+p{color:var(--ink-dim);}
+.lede{font-size:1.02rem;color:var(--ink);text-align:center;}
 
-  <section class="section">
-    <div class="section-head">
-      <span class="eyebrow">Nuestros servicios</span>
-      <h2>¿Con qué trámite te ayudamos?</h2>
-    </div>
-    <div class="cards">
+.top{padding:32px 0 8px;text-align:center;}
+.brand{display:inline-flex;align-items:center;gap:10px;font-family:'Playfair Display',serif;font-weight:700;font-size:20px;color:var(--navy);}
+.brand .mark{
+  width:38px;height:38px;border-radius:50%;
+  background:linear-gradient(135deg,#2a5bd7,#16234a);
+  color:#fff;display:flex;align-items:center;justify-content:center;
+  font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;
+}
+.mark-img{width:96px;height:96px;border-radius:50%;object-fit:cover;box-shadow:0 6px 16px -6px rgba(21,36,73,0.35);}
+.divider-heart{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0 18px;color:var(--gold);font-size:14px;}
+.divider-heart .line{width:44px;height:1px;background:var(--gold);}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Extranjer%C3%ADa%20y%20Nacionalidad" target="_blank" rel="noopener">
-        <div class="ico">🌐</div>
-        <div class="body"><b>Extranjería y Nacionalidad</b><span>Asesoría completa de tu proceso migratorio.</span></div>
-        <div class="arrow">→</div>
-      </a>
+.credential{
+  display:flex;gap:14px;align-items:center;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px;margin:22px 0;
+}
+.credential img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex-shrink:0;}
+.credential .txt{font-size:12.5px;color:var(--ink-dim);}
+.credential .txt b{display:block;color:var(--navy);font-family:'Playfair Display',serif;font-size:14.5px;margin-bottom:2px;}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20canje%20de%20carn%C3%A9%20de%20conducir" target="_blank" rel="noopener">
-        <div class="ico">🪪</div>
-        <div class="body"><b>Canje de permiso de conducir</b><span>Convalida tu carné extranjero en España.</span></div>
-        <div class="arrow">→</div>
-      </a>
+.section{padding:20px 0;}
+.section-head{margin-bottom:14px;text-align:center;}
+.cards{display:flex;flex-direction:column;gap:12px;}
+.card{
+  display:flex;align-items:center;gap:14px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 18px;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 24px -14px rgba(21,36,73,0.35);border-color:var(--gold);}
+.card .ico{
+  width:44px;height:44px;border-radius:50%;
+  background:var(--paper-2);color:var(--navy);
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;flex-shrink:0;
+}
+.card .body{flex:1;min-width:0;}
+.card .body b{display:block;font-family:'Playfair Display',serif;color:var(--navy);font-size:16px;font-weight:600;}
+.card .body span{font-size:13px;color:var(--ink-dim);}
+.card .arrow{color:var(--gold);font-size:20px;flex-shrink:0;}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20necesito%20ayuda%20con%20una%20cita%20en%20un%20organismo%20p%C3%BAblico" target="_blank" rel="noopener">
-        <div class="ico">📅</div>
-        <div class="body"><b>Citas en organismos públicos</b><span>Gestión de citas ante administraciones.</span></div>
-        <div class="arrow">→</div>
-      </a>
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px;}
+.value-card{background:var(--paper-2);border-radius:12px;padding:14px 10px;text-align:center;}
+.value-card .vi{font-size:20px;margin-bottom:6px;}
+.value-card b{display:block;font-size:12.5px;color:var(--navy);font-family:'Playfair Display',serif;}
+.value-card span{font-size:11px;color:var(--ink-dim);}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%20como%20empleador" target="_blank" rel="noopener">
-        <div class="ico">👥</div>
-        <div class="body"><b>Inscripción como empleador</b><span>Alta y trámites para contratar en España.</span></div>
-        <div class="arrow">→</div>
-      </a>
+.testimonials{display:flex;flex-direction:column;gap:12px;}
+.testimonial{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px;
+}
+.testimonial .quote{font-style:italic;color:var(--ink);font-size:14.5px;margin:0 0 8px;}
+.testimonial .author{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--gold);}
+.btn-google{
+  display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;
+  font-weight:700;font-size:13.5px;border:1.5px solid var(--navy);color:var(--navy);background:#fff;
+}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20necesito%20solicitar%20una%20partida%20de%20nacimiento" target="_blank" rel="noopener">
-        <div class="ico">📄</div>
-        <div class="body"><b>Solicitud de partidas de nacimiento</b><span>Obtención de documentos oficiales.</span></div>
-        <div class="arrow">→</div>
-      </a>
+.cta-block{
+  background:var(--navy);border-radius:var(--radius);padding:30px 22px;text-align:center;margin-top:26px;
+}
+.cta-block .eyebrow{color:var(--gold-light);}
+.cta-block h2{color:#f8f4ea;margin-top:6px;}
+.cta-block p{color:#c9cfe0;font-size:13.5px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:999px;font-weight:700;font-size:14.5px;margin-top:12px;}
+.btn-primary{background:var(--gold);color:#241a06;}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20homologaci%C3%B3n%20de%20estudios" target="_blank" rel="noopener">
-        <div class="ico">🎓</div>
-        <div class="body"><b>Homologación y convalidación de estudios</b><span>Reconoce tu titulación en España.</span></div>
-        <div class="arrow">→</div>
-      </a>
+footer{padding:28px 0 16px;text-align:center;font-size:12px;color:var(--ink-dim);font-family:'IBM Plex Mono',monospace;}
 
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20necesito%20antecedentes%20penales" target="_blank" rel="noopener">
-        <div class="ico">📋</div>
-        <div class="body"><b>Antecedentes penales de cualquier país</b><span>Solicitud y gestión del certificado.</span></div>
-        <div class="arrow">→</div>
-      </a>
-
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20necesito%20un%20acta%20de%20matrimonio" target="_blank" rel="noopener">
-        <div class="ico">💍</div>
-        <div class="body"><b>Actas de matrimonio</b><span>Solicitud de actas y certificados civiles.</span></div>
-        <div class="arrow">→</div>
-      </a>
-
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20necesito%20cancelar%20antecedentes%20policiales" target="_blank" rel="noopener">
-        <div class="ico">🛡️</div>
-        <div class="body"><b>Cancelación de antecedentes policiales</b><span>Gestión de la cancelación de tu registro.</span></div>
-        <div class="arrow">→</div>
-      </a>
-
-      <a class="card" href="https://wa.me/34663314193?text=Hola%2C%20necesito%20una%20cita%20para%20un%20tr%C3%A1mite%20administrativo" target="_blank" rel="noopener">
-        <div class="ico">🏛️</div>
-        <div class="body"><b>Citas de trámites administrativos</b><span>Te acompañamos en cualquier gestión oficial.</span></div>
-        <div class="arrow">→</div>
-      </a>
-
-    </div>
-
-    <div class="values">
-      <div class="value-card"><div class="vi">🛡️</div><b>Profesionalidad</b><span>Experiencia a tu servicio</span></div>
-      <div class="value-card"><div class="vi">🤝</div><b>Confianza</b><span>Trato cercano y transparente</span></div>
-      <div class="value-card"><div class="vi">🔒</div><b>Seguridad</b><span>Cuidamos cada detalle</span></div>
-    </div>
-  </section>
-
-  <div class="cta-block">
-    <span class="eyebrow">¿No sabes por dónde empezar?</span>
-    <h2>Escríbenos y te decimos cómo empezar</h2>
-    <p>Respuesta rápida y sin compromiso.</p>
-    <a class="btn btn-primary" href="https://wa.me/34663314193" target="_blank" rel="noopener">Habla por WhatsApp</a>
-  </div>
-
-  <footer>guardiasesores.es · © 2026 GuardiaSesores</footer>
-</main>
-
-<nav class="stickybar">
-  <a href="tel:+34663314193"><span class="si">📞</span>Llamar</a>
-  <a class="highlight" href="https://wa.me/34663314193" target="_blank" rel="noopener"><span class="si">💬</span>WhatsApp</a>
-  <a href="https://www.instagram.com/guardiasesores" target="_blank" rel="noopener"><span class="si">📷</span>Instagram</a>
-  <a href="#" id="fb-link" target="_blank" rel="noopener"><span class="si">📘</span>Facebook</a>
-</nav>
-
-</body>
-</html>
+.stickybar{
+  position:fixed;bottom:0;left:0;right:0;z-index:30;
+  background:var(--navy);border-top:1px solid rgba(255,255,255,0.08);
+  display:flex;justify-content:space-around;align-items:center;
+  padding:10px 8px calc(10px + env(safe-area-inset-bottom));
+}
+.stickybar a{
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  color:#e7e9f2;font-size:11px;font-weight:600;flex:1;text-align:center;
+}
+.stickybar a .si{font-size:19px;}
+.stickybar a.highlight{color:var(--gold-light);}
