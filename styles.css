@@ -8,4 +8,225 @@
 .legal-page ul{padding-left:20px;}
 .legal-page .pending{background:#fff3d6;color:#5a4200;padding:1px 6px;border-radius:4px;font-weight:600;}
 .legal-page .back{display:inline-block;margin-bottom:24px;font-size:13px;color:var(--gold);font-weight:600;}
-.legal-page .notice{background:var(--paper-2);border-radius:10px;padding:14px 16px;font-size:13px;margin:24px 0;}
+.legal-page .notice{background:var(--paper-2);border-radius:10px;padding:14px 16px;font-size:13px;margin:24px 0;} 
+/* páginas legales */
+.legal-page{max-width:760px;margin:0 auto;padding:48px 24px 64px;}
+.legal-page h1{text-align:left;font-size:1.8rem;margin-bottom:8px;}
+.legal-page .updated{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-dim);margin-bottom:32px;display:block;}
+.legal-page h2{font-size:1.15rem;margin-top:32px;}
+.legal-page p, .legal-page li{color:var(--ink-dim);font-size:14.5px;line-height:1.7;}
+.legal-page ul{padding-left:20px;}
+.legal-page .pending{background:#fff3d6;color:#5a4200;padding:1px 6px;border-radius:4px;font-weight:600;}
+.legal-page .back{display:inline-block;margin-bottom:24px;font-size:13px;color:var(--gold);font-weight:600;}
+.legal-page .notice{background:var(--paper-2);border-radius:10px;padding:14px 16px;font-size:13px;margin:24px 0;}<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aviso Legal | GuardiaSesores</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="legal-page">
+<a class="back" href="/">← Volver a la web</a>
+<h1>Aviso Legal</h1>
+<span class="updated">Última actualización:</span>
+
+<div class="notice">Esta es una plantilla base orientativa. No sustituye la revisión de un abogado — dado que GuardiaSesores gestiona documentación sensible de terceros (extranjería, antecedentes penales, datos civiles), recomendamos encarecidamente que un profesional del derecho revise este texto antes de publicarlo definitivamente.</div>
+
+<h2>1. Datos identificativos</h2>
+<p>En cumplimiento del artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), se informa de los siguientes datos:</p>
+<ul>
+<li>Titular: <span class="pending">[Guardia Asesores]</span></li>
+<li>NIF/CIF: <span class="pending">[]</span></li>
+<li>Domicilio: <span class="pending">[Plaza San Juan De La Cruz 7]</span></li>
+<li>Correo electrónico de contacto: <span class="pending">[guardiasesores@gmail.com]</span></li>
+<li>Teléfono: 618 535 807</li>
+<li>Datos registrales (si aplica, ej. Registro Mercantil): <span class="pending">[]</span></li>
+</ul>
+
+<h2>2. Objeto</h2>
+<p>El presente sitio web (guardiasesores.es) tiene por objeto informar sobre los servicios de asesoría y gestión administrativa ofrecidos por GuardiaSesores y facilitar el contacto con clientes potenciales.</p>
+
+<h2>3. Naturaleza del servicio</h2>
+<p>GuardiaSesores es una gestoría administrativa privada e independiente. El logotipo "GA" es el símbolo identificativo de las gestorías administrativas colegiadas de España. GuardiaSesores no es un organismo oficial ni representa al Gobierno de España, y los trámites descritos en esta web pueden realizarse de forma independiente por el interesado ante las sedes electrónicas competentes. Los honorarios de GuardiaSesores corresponden exclusivamente a la gestión profesional y asesoría prestada.</p>
+
+<h2>4. Condiciones de uso</h2>
+<p>El acceso a este sitio web es gratuito y no requiere registro previo. El usuario se compromete a hacer un uso adecuado de los contenidos y a no emplearlos para fines ilícitos.</p>
+
+<h2>5. Propiedad intelectual</h2>
+<p>Los contenidos de este sitio web (textos, logotipo, imágenes) son propiedad de GuardiaSesores o se utilizan con la debida autorización, y están protegidos por la normativa de propiedad intelectual vigente.</p>
+
+<h2>6. Exclusión de responsabilidad</h2>
+<p>GuardiaSesores no garantiza la disponibilidad continua del sitio web y no se hace responsable de los daños derivados de interrupciones del servicio. La información publicada tiene carácter orientativo y no constituye asesoramiento jurídico vinculante sin una consulta profesional previa.</p>
+
+<h2>7. Legislación aplicable</h2>
+<p>Las presentes condiciones se rigen por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales que correspondan según la normativa de consumidores y usuarios aplicable.</p>
+
+</div>
+</body>
+</html> <!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad | GuardiaSesores</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="legal-page">
+<a class="back" href="/">← Volver a la web</a>
+<h1>Política de Privacidad</h1>
+<span class="updated">Última actualización: []</span>
+
+<div class="notice">Esta es una plantilla base orientativa conforme al Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD. No sustituye la revisión de un abogado o delegado de protección de datos — al tratar datos de trámites de extranjería, antecedentes penales y documentación civil, GuardiaSesores maneja categorías de datos especialmente sensibles que requieren una revisión profesional específica antes de publicar este texto.</div>
+
+<h2>1. Responsable del tratamiento</h2>
+<ul>
+<li>Responsable: <span class="pending">[Guardia Asesores]</span></li>
+<li>NIF/CIF: <span class="pending">[]</span></li>
+<li>Dirección: <span class="pending">[Plaza San Juan De La Cruz 7]</span></li>
+<li>Email de contacto para protección de datos: <span class="pending">[guardiasesores@gmail.com]</span></li>
+</ul>
+
+<h2>2. Datos que recogemos</h2>
+<p>Recogemos los datos que nos facilitas voluntariamente al contactarnos por WhatsApp, teléfono o los formularios de esta web: nombre, teléfono, y la información necesaria para gestionar el trámite solicitado. En función del servicio contratado, podemos tratar datos especialmente protegidos (por ejemplo, antecedentes penales, situación de residencia o estado civil), siempre con tu consentimiento expreso y para la finalidad exclusiva de prestar el servicio solicitado.</p>
+
+<h2>3. Finalidad del tratamiento</h2>
+<p>Tus datos se utilizan para: responder a tus consultas, gestionar el trámite administrativo que nos encargues, y cumplir con las obligaciones legales derivadas de la prestación del servicio.</p>
+
+<h2>4. Legitimación</h2>
+<p>La base legal para el tratamiento es la ejecución de un contrato o la aplicación de medidas precontractuales a petición tuya, así como tu consentimiento expreso cuando el trámite implique categorías especiales de datos.</p>
+
+<h2>5. Conservación de los datos</h2>
+<p>Conservamos tus datos durante el tiempo necesario para gestionar el trámite y, posteriormente, durante los plazos legales de conservación documental que correspondan según la normativa administrativa, mercantil o fiscal aplicable.</p>
+
+<h2>6. Destinatarios</h2>
+<p>No cedemos tus datos a terceros salvo obligación legal, o cuando sea estrictamente necesario para tramitar tu expediente ante el organismo público correspondiente (extranjería, DGT, Seguridad Social, Registro Civil, etc.), y siempre con tu conocimiento.</p>
+
+<h2>7. Tus derechos</h2>
+<p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad de tus datos escribiendo a <span class="pending">[PENDIENTE: email de contacto]</span>. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que el tratamiento no se ajusta a la normativa.</p>
+
+<h2>8. Servicios de terceros</h2>
+<p>Esta web enlaza a WhatsApp, Instagram, Facebook y Google para la comunicación y las reseñas de clientes. El tratamiento de tus datos en dichas plataformas se rige por sus propias políticas de privacidad, ajenas a GuardiaSesores.</p>
+
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Cookies | GuardiaSesores</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="legal-page">
+<a class="back" href="/">← Volver a la web</a>
+<h1>Política de Cookies</h1>
+<span class="updated">Última actualización: []</span>
+
+<div class="notice">Esta plantilla refleja el funcionamiento real y actual del sitio en la fecha de redacción. Si en el futuro se añaden herramientas de análisis, publicidad o formularios que instalen cookies, este texto deberá actualizarse en consecuencia.</div>
+
+<h2>1. ¿Qué son las cookies?</h2>
+<p>Las cookies son pequeños archivos que algunos sitios web guardan en tu navegador para recordar información sobre tu visita.</p>
+
+<h2>2. Cookies que utiliza este sitio</h2>
+<p>Esta web, en su versión actual, <strong>no instala cookies propias de seguimiento ni de publicidad</strong>. Únicamente carga tipografías externas desde los servidores de Google Fonts, lo que puede implicar una conexión técnica a servidores de Google para mostrar correctamente el diseño de la página, sin que ello suponga la instalación de una cookie de seguimiento por nuestra parte.</p>
+
+<h2>3. Enlaces a redes sociales</h2>
+<p>Esta web incluye enlaces a WhatsApp, Instagram, Facebook y Google. Al hacer clic en ellos, sales de guardiasesores.es y pasas a esas plataformas, que pueden instalar sus propias cookies conforme a sus políticas, ajenas a GuardiaSesores.</p>
+
+<h2>4. Cómo gestionar las cookies</h2>
+<p>Puedes configurar tu navegador para bloquear o eliminar las cookies de cualquier sitio web que visites, incluidas las de las plataformas de terceros mencionadas.</p>
+
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa Web | GuardiaSesores</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="legal-page">
+<a class="back" href="/">← Volver a la web</a>
+<h1>Mapa Web</h1>
+<h2>Páginas de este sitio</h2>
+<ul>
+<li><a href="/">Inicio</a></li>
+<li><a href="/#servicios">Nuestros servicios</a></li>
+<li><a href="/aviso-legal.html">Aviso Legal</a></li>
+<li><a href="/privacidad.html">Política de Privacidad</a></li>
+<li><a href="/cookies.html">Política de Cookies</a></li>
+<li><a href="/accesibilidad.html">Declaración de Accesibilidad</a></li>
+<li><a href="/condiciones-contratacion.html">Condiciones de Contratación</a></li>
+</ul>
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Declaración de Accesibilidad | GuardiaSesores</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="legal-page">
+<a class="back" href="/">← Volver a la web</a>
+<h1>Declaración de Accesibilidad</h1>
+
+<div class="notice">Aviso importante: la "Declaración de Accesibilidad" formal, conforme al Real Decreto 1112/2018, es una obligación legal para páginas del sector público, no para una gestoría privada como GuardiaSesores. Este texto es un compromiso voluntario de buenas prácticas, no una certificación oficial de cumplimiento normativo.</div>
+
+<h2>Nuestro compromiso</h2>
+<p>GuardiaSesores se compromete a que este sitio web sea accesible para el mayor número posible de personas, siguiendo criterios generales de diseño responsive, contraste de color legible y navegación sencilla.</p>
+
+<h2>¿Has encontrado alguna barrera?</h2>
+<p>Si al navegar por esta web encuentras alguna dificultad de accesibilidad, puedes escribirnos a <span class="pending">[PENDIENTE: email de contacto]</span> y lo revisaremos.</p>
+
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Condiciones de Contratación | GuardiaSesores</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="legal-page">
+<a class="back" href="/">← Volver a la web</a>
+<h1>Condiciones de Contratación</h1>
+<span class="updated">Última actualización: [PENDIENTE: fecha]</span>
+
+<div class="notice">Plantilla orientativa. Antes de publicarla, recomendamos que un abogado la revise y la ajuste a los honorarios, plazos y responsabilidades reales de cada tipo de trámite que ofrece GuardiaSesores.</div>
+
+<h2>1. Objeto</h2>
+<p>Estas condiciones regulan la contratación de los servicios de asesoría y gestión administrativa ofrecidos por GuardiaSesores, detallados en la sección de servicios de esta web.</p>
+
+<h2>2. Presupuesto y aceptación</h2>
+<p>Antes de iniciar cualquier trámite, GuardiaSesores informará al cliente del alcance del servicio y de los honorarios correspondientes. El encargo se entiende aceptado cuando el cliente confirma expresamente el presupuesto, por el medio de comunicación que se haya utilizado (WhatsApp, email u otro).</p>
+
+<h2>3. Documentación del cliente</h2>
+<p>El cliente se compromete a aportar la documentación necesaria, veraz y actualizada, para la correcta tramitación de su expediente. GuardiaSesores no se hace responsable de los retrasos o denegaciones derivados de documentación incompleta o incorrecta aportada por el cliente.</p>
+
+<h2>4. Plazos</h2>
+<p>Los plazos de resolución de cada trámite dependen de los organismos públicos competentes y no de GuardiaSesores, por lo que los tiempos estimados que se comuniquen tienen carácter orientativo.</p>
+
+<h2>5. Honorarios</h2>
+<p>Los honorarios de GuardiaSesores corresponden a la gestión profesional y asesoría prestada, y son independientes de las tasas oficiales que, en su caso, deba abonar el cliente directamente a la administración correspondiente.</p>
+
+<h2>6. Resolución del encargo</h2>
+<p>El cliente puede desistir del encargo antes de su inicio efectivo. Una vez iniciada la gestión, se abonarán los honorarios correspondientes al trabajo ya realizado.</p>
+
+</div>
+</body>
+</html>
